@@ -336,12 +336,6 @@ public class FlowLayout extends ViewGroup {
 		}
 
 	}
-
-	@Override
-	protected LayoutParams generateLayoutParams(ViewGroup.LayoutParams p) {
-		return new LayoutParams(p);
-	}
-
     /**
      * {@inheritDoc}
      */

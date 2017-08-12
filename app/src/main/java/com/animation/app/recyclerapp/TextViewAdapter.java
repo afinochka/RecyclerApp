@@ -18,7 +18,7 @@ public class TextViewAdapter extends FlowAdapter {
 
     List<String> args = new ArrayList<>();
 
-    public void setList(List<String> args){
+    public void setList(List<String> args) {
         this.args = args;
     }
 
@@ -39,8 +39,7 @@ public class TextViewAdapter extends FlowAdapter {
     }
 
 
-    private class TvViewHolder extends FlowViewHolder{
-
+    private class TvViewHolder extends FlowViewHolder {
 
 
         public TvViewHolder(View itemView) {

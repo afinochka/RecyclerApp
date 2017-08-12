@@ -6,21 +6,21 @@
     android:layout_height="match_parent"
     tools:context="com.animation.app.recyclerapp.MainActivity">
 
-    <com.animation.app.recyclerapp.flow.FlowLayout
-        android:id="@+id/lyt_flow"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
 
-    <com.animation.app.recyclerapp.flow.FlowLyt
-        android:id="@+id/lyt_root"
+    <com.animation.app.recyclerapp.tag.TagLayout
+        android:id="@+id/tagLayout"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_above="@+id/btn_apply"
+        android:background="#ffff00"/>
 
     <Button
         android:id="@+id/btn_apply"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
         android:text="apply"/>
 
 </RelativeLayout>

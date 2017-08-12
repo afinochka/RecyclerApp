@@ -23,4 +23,12 @@
 	<declare-styleable name="FlowLayout_Layout">
 		<attr name="android:layout_gravity" />
 	</declare-styleable>
+
+	<declare-styleable name="TagLayout">
+		<attr name="child_margin_bottom" format="dimension"/>
+		<attr name="child_margin_top" format="dimension"/>
+		<attr name="child_margin_left" format="dimension"/>
+		<attr name="child_margin_right" format="dimension"/>
+		<attr name="child_margin" format="dimension"/>
+	</declare-styleable>
 </resources>
